@@ -4,7 +4,10 @@ body {
 
 .navbar {
   opacity: 1;
-  min-height: 60px; }
+  min-height: 80px; }
+
+.nav-item {
+  padding-left: 15px; }
 
 #hero-section {
   background: url("../img/hero-img.jpg");
@@ -13,22 +16,19 @@ body {
   background-attachment: fixed; }
 
 #blackbread {
-  background: url('../img/bread-black-flipped.jpg');
-  min-height:400px;
-  background-size:cover;
-}
+  background: url("../img/bread-black-flipped.jpg");
+  min-height: 400px;
+  background-size: cover; }
 
 #customer-advantage {
-  background: url('../img/baguette.jpg');
-  min-height:500px;
-  background-size:cover;
-}
+  background: url("../img/baguette.jpg");
+  min-height: 500px;
+  background-size: cover; }
 
 #we-offer {
-  background: url('../img/breadbasket.jpg');
-  min-height:500px;
-  background-size:cover;
-}
+  background: url("../img/breadbasket.jpg");
+  min-height: 500px;
+  background-size: cover; }
 
 .dark-overlay {
   background-color: rgba(0, 0, 0, 0.2);
@@ -61,9 +61,4 @@ body {
   color: white; }
 
 .text-invert-color {
-  color: white;
-}
-
-.rounded-circle {
-  background-color: black;
-}
+  color: white; }
