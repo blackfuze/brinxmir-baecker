@@ -4,7 +4,7 @@ body {
 
 .navbar {
   opacity: 1;
-  min-height: 100px; }
+  min-height: 60px; }
 
 #hero-section {
   background: url("../img/hero-img.jpg");
@@ -30,8 +30,8 @@ body {
   background-size:cover;
 }
 
-.bright-overlay {
-  background-color: rgba(255, 255, 255, 0.2);
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.2);
   position: absolute;
   top: 0;
   left: 0;
