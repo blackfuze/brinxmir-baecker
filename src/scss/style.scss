@@ -33,6 +33,11 @@ body{
   background-size:cover;
 }
 
+#we-offer {
+  background: url('../img/breadbasket.jpg');
+  min-height: 500px;
+  background-size: cover;
+}
 .dark-overlay{
   background-color:$dark-overlay;
   position:absolute;
