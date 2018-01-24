@@ -7,10 +7,17 @@ body {
   min-height: 100px; }
 
 #hero-section {
-  background: url("../img/home.jpg");
+  background: url("../img/hero-img.jpg");
   min-height: 700px;
   background-size: cover;
   background-attachment: fixed; }
+
+#blackbread {
+  background: url('../img/bread-black-flipped.jpg');
+  min-height:400px;
+  background-size:cover;
+}
+
 
 .bright-overlay {
   background-color: rgba(255, 255, 255, 0.2);
@@ -41,3 +48,7 @@ body {
   text-align: center;
   background-color: black;
   color: white; }
+
+.text-invert-color {
+  color: white;
+}
