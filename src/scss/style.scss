@@ -1,7 +1,7 @@
-$bg-color: #333;
-$font-color: #fff;
-$primary-color: #008ed6;
-$dark-overlay:rgba(0,0,0,0.8);
+$bg-color: #fff;
+$font-color: #000;
+$primary-color: #000;
+$bright-overlay:rgba(255,255,255,0.2);
 
 body{
   background:$bg-color;
@@ -9,19 +9,20 @@ body{
 }
 
 .navbar{
-  border-bottom:$primary-color 3px solid;
-  opacity:0.8;
+  opacity:1;
+  min-height: 100px;
 }
 
-#home-section{
+
+#hero-section{
   background:url('../img/home.jpg');
   min-height:700px;
   background-size:cover;
   background-attachment:fixed;
 }
 
-.dark-overlay{
-  background-color:$dark-overlay;
+.bright-overlay{
+  background-color:$bright-overlay;
   position:absolute;
   top:0;
   left:0;
@@ -31,4 +32,29 @@ body{
 
 .home-inner{
   padding-top:150px;
+}
+
+.value-inner {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.hero-left{
+    padding: 40px 0;
+}
+
+
+.hero-text {
+  padding-bottom: 50px;
+}
+
+.hero-logo {
+  margin: auto;
+  width: 50%;
+}
+
+.card-body{
+  text-align: center;
+  background-color: black;
+  color: white;
 }
