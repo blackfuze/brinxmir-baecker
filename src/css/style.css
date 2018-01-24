@@ -18,6 +18,17 @@ body {
   background-size:cover;
 }
 
+#customer-advantage {
+  background: url('../img/baguette.jpg');
+  min-height:500px;
+  background-size:cover;
+}
+
+#we-offer {
+  background: url('../img/breadbasket.jpg');
+  min-height:500px;
+  background-size:cover;
+}
 
 .bright-overlay {
   background-color: rgba(255, 255, 255, 0.2);
@@ -51,4 +62,8 @@ body {
 
 .text-invert-color {
   color: white;
+}
+
+.rounded-circle {
+  background-color: black;
 }
